@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Controller {
     @GetMapping("/")
     public String index(Model model) {
-        model.addAttribute("msg", "Hello Railway!");
+        model.addAttribute("msg", "这里是秦浩翔的个人网页");
         return "index";
     }
     
